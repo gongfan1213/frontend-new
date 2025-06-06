@@ -1,5 +1,9 @@
 # Nova
 
+![image](https://github.com/user-attachments/assets/9164ebb1-beb0-4ced-aeed-75cb566cf2c6)
+
+
+
 [TRY IT OUT HERE](https://opencanvas.langchain.com/)
 
 ![Screenshot of app](./static/screenshot.png)
