@@ -42,13 +42,12 @@ function NoReflections(props: NoReflectionsProps) {
 
   return (
     <div className="flex flex-col items-center mt-6 mb-[-24px] gap-3">
-      <TighterText>No reflections have been generated yet.</TighterText>
+      <TighterText>暂无生成的反思内容。</TighterText>
       <TighterText className="text-sm text-gray-500">
-        Reflections generate after 30s of inactivity. If none appear, try again
-        later.
+        系统会在30秒无操作后生成反思内容。如果没有显示，请稍后再试。
       </TighterText>
       <Button onClick={getReflections} variant="secondary" size="sm">
-        <TighterText>Search for reflections</TighterText>
+        <TighterText>搜索反思内容</TighterText>
       </Button>
     </div>
   );
@@ -102,7 +101,7 @@ export function ReflectionsDialog(props: ReflectionsDialogProps) {
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <TooltipIconButton
-          tooltip="Reflections"
+          tooltip="反思"
           variant="ghost"
           className="w-fit h-fit p-2"
           onClick={() => setOpen(true)}
@@ -114,9 +113,9 @@ export function ReflectionsDialog(props: ReflectionsDialogProps) {
         <DialogHeader>
           <DialogTitle className="flex items-center justify-between">
             <TighterText className="text-3xl font-light text-gray-800">
-              Reflections
+              反思
             </TighterText>
-            {selectedAssistant && (
+            {/* {selectedAssistant && (
               <Badge
                 style={{
                   ...(iconData
@@ -139,7 +138,7 @@ export function ReflectionsDialog(props: ReflectionsDialogProps) {
                 </span>
                 {selectedAssistant?.name}
               </Badge>
-            )}
+            )} */}
           </DialogTitle>
           <DialogDescription className="mt-2 text-md font-light text-gray-600">
             <TighterText>
@@ -208,7 +207,7 @@ export function ReflectionsDialog(props: ReflectionsDialogProps) {
             onClick={() => setOpen(false)}
             className="bg-black hover:bg-gray-800 text-white px-4 py-2 rounded shadow transition"
           >
-            <TighterText>Close</TighterText>
+            <TighterText>关闭</TighterText>
           </Button>
         </div>
       </DialogContent>

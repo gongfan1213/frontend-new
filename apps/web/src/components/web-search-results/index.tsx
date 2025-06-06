@@ -137,7 +137,7 @@ export function WebSearchResults({ open, setOpen }: WebSearchResultsProps) {
               Search Results
             </TighterText>
             <TooltipIconButton
-              tooltip="Close"
+              tooltip="关闭"
               variant="ghost"
               onClick={handleClose}
             >

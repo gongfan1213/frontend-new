@@ -143,7 +143,7 @@ export const ThreadWelcome: FC<ThreadWelcomeProps> = (
             <AvatarFallback>LC</AvatarFallback>
           </Avatar> */}
           <TighterText className="mt-2 text-2xl font-medium">
-            Nexus
+            Nova
           </TighterText>
           <div className="mt-8 w-full">
             <QuickStartButtons

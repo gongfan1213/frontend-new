@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Nexus",
-  description: "Nexus Chat UX by LangChain",
+  title: "Nova",
+  description: "Nova Chat UX by LangChain",
 };
 
 export default function RootLayout({
