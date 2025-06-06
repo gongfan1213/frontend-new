@@ -10,29 +10,29 @@ import { ComposerAttachments } from "../assistant-ui/attachment";
 import { ComposerActionsPopOut } from "./composer-actions-popout";
 
 const GENERIC_PLACEHOLDERS = [
-  "Share your big idea and let's write something amazing",
-  "Type your vision for the next great piece of content",
-  "Your masterpiece begins with this prompt",
-  "What would you like us to write about today?",
-  "Drop your content idea here and let's create",
-  "Your next great piece starts with this prompt",
-  "Share your story idea and watch it unfold",
-  "Let's write something incredible - start here",
-  "Your writing journey begins with this prompt",
-  "Turn your idea into content magic - start here",
+  "分享你的想法，让我们一起创作精彩内容",
+  "输入你对下一个精彩内容的构想",
+  "你的杰作从这里开始",
+  "今天你想让我们写些什么？",
+  "在这里分享你的内容创意，让我们开始创作",
+  "你的下一个精彩作品从这里开始",
+  "分享你的故事创意，让我们来展开它",
+  "让我们创作一些精彩的内容 - 从这里开始",
+  "你的写作之旅从这里开始",
+  "将你的想法转化为精彩内容 - 从这里开始",
 ];
 
 const SEARCH_PLACEHOLDERS = [
-  "Share your topic - I'll add live data",
-  "Write about anything - I'll find sources",
-  "Your idea + fresh research = great content",
-  "Start here with real-time facts",
-  "Topic here for data-rich content",
-  "Create with current insights",
-  "Write now with live sources",
-  "Your story + fresh data",
-  "Ideas welcome - research ready",
-  "Start fresh with live facts",
+  "分享你的主题 - 我会添加实时数据",
+  "写任何内容 - 我会找到相关来源",
+  "你的想法 + 最新研究 = 优质内容",
+  "从这里开始，获取实时事实",
+  "输入主题，获取数据丰富的内容",
+  "用最新见解创作",
+  "立即写作，使用实时来源",
+  "你的故事 + 新鲜数据",
+  "欢迎分享想法 - 研究已就绪",
+  "用实时事实开始创作",
 ];
 
 const getRandomPlaceholder = (searchEnabled: boolean) => {
